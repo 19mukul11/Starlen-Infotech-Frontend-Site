@@ -1,0 +1,382 @@
+/* Utility Classes*/
+body{
+    padding:0px;
+    margin: 0px;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/*************************************/
+
+/* header and nav*/
+header{
+    color: white;
+    background-color: #e74c3c;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    /*border-bottom: 1px solid yellow;*/
+    box-shadow: 5px 2px 5px 4px #8888;
+}
+header h1{
+    margin: 0px;
+    align-self: center;
+    align-content: center;
+}
+header h1 a{
+    color: white;
+    background-color:#e74c3c ;
+}
+header h1 a:hover{
+    color: white;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding:0px;
+}
+#menu li{
+    width: 100px;
+}
+#menu li a{
+    color: white;
+    display: block;
+    padding: 16px 15px;
+    text-align: center;
+    background-color: #e74c3c;
+}
+
+#menu li a:hover{
+    background-color: #c0392b;
+}
+
+#hamburger{
+    font-size: 25px;
+    display: none;
+}
+
+
+/* *********Banner******* */
+#banner{
+    background:url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#banner h2{
+    background-color:#e68176;
+    display: inline-block;
+    color: white;
+    padding:10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+#banner p{
+    background-color: transparent;
+    color: white;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom:10px; 
+    font-size: 20px;
+}
+
+/* ******* Banner 2 *****8*/
+#banner-2{
+    background : #e74c3c;/*#e68176;*/
+    background-size: cover;
+    color: white;
+    padding: 40px 0px 40px 0px;
+}
+#banner-2 h3{
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+#banner-2 .row p{
+    color: white;
+    text-align: justify;
+}
+
+
+
+/* ******Services***********/
+.services{
+    /*border: 1px solid black;*/
+    padding: 70px 0px 70px 0px;
+}
+
+.services h3{
+    color:  #e74c3c;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+}
+
+.services h6{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.services img{
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+}
+
+/* *************Domains Section*************** */
+#domains{
+    border: 1px solid red;
+    padding: 50px 0px 50px 0px;
+    background-color: #e74c3c;
+    color: white;
+}
+
+#domains .row img{
+    width: 30%;
+    filter: invert(100%);
+    display: block;
+    margin: 0px auto;
+    padding: 15px 0px;
+}
+
+#domains .row h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* *******Clients section ************/
+#clients{
+    padding: 70px 0px 70px 0px;
+}
+
+#clients h3{
+    text-align: center;
+    margin-bottom: 30px ;
+    color:  #e74c3c;
+}
+
+#clients .row img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* **************Testimonials section*************** */
+#testimonials{
+    padding: 50px 0px 50px 0px;
+    position: relative;
+}
+
+#testimonials::before{
+    content: "";
+    background: url("../img/testimonials.jpg") no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 35%;
+    filter: grayscale(10%);
+}
+
+#testimonials .container{
+    position: relative;
+}
+
+#testimonials h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#testimonials img{
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+/* ***** Recent News ********/
+
+#recent-news{
+    padding: 70px 0px 70px 0px;
+}
+
+#recent-news h3{
+    color:#e74c3c; 
+    margin-bottom: 20px;
+}
+#recent-news hr{
+    color: black;
+    width: 25%;
+    margin: 0px auto;
+    display: block;
+    border: 1px solid black;
+    opacity: 100%;
+}
+#recent-news h6{
+    text-align: center;
+}
+#recent-news .col-sm-3{
+    padding: 20px;
+}
+#recent-news a{
+    color: #e74c3c; 
+}
+#recent-news img{
+    width: 70%;
+    display: block;
+    margin: 15px auto;
+    box-sizing: border-box;
+}
+#recent-news p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+#recent-news a:hover{
+    color: black;
+}
+
+/* ******** Footer ******** */
+
+#footer{
+    background-color: black;
+    filter: saturate(70%);
+    color: white;
+    font-size: 14px;
+}
+
+#footer h5{
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+#footer .row{
+    padding: 10px;
+}
+#footer .col-md-4{
+    padding: 0px 15px;
+}
+
+#footer ul li a{
+    color: white;
+}
+/**********************************************************************/
+
+/* Media Queires */
+
+@media (max-width:991px){
+
+    header h1 a{
+        font-size: 30px;
+    }
+
+    #menu li{
+        width: 80px;
+    }
+    #menu li a{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:767px){
+
+    header h1 a{
+        font-size: 23px;
+    }
+
+    header h1{
+        text-align: center;
+    }
+    
+    #menu li{
+        width: 100%;
+    }
+}
+
+@media (max-width:575px){
+    
+    .services img{
+        width: 25%;
+    }
+    .services {
+        padding: 30px 0px;;
+    }
+
+    .services .col-sm-4{
+        margin: 20px 0px;
+    }
+
+    #domains .col-sm-4{
+        margin: 10px 0px;
+    }
+
+    #clients .container .row img{
+        width: 35%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 5px auto;
+    }
+
+    #banner-2 p{
+        padding: 0px 25px;
+        font-size: 14px;
+    }
+
+    #testimonials-content .row .col-sm-6 img{
+        display: block;
+        margin: 2px auto;
+    }
+    #testimonials-content h6{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #testimonials-content p, #recent-news p{
+        text-align: center;
+    }
+
+    #recent-news img{
+        width: 50%;
+    }
+}
+
+@media (min-width:451px){
+    
+    #menu{
+        display: flex;
+        flex-direction: row;
+    }
+ }
+
+/* media query for responsive hamburger menu*/
+@media (max-width:450px){
+
+    #hamburger{
+        display: block;
+        padding: 5px;
+    }
+
+    #menu{
+        display: none;
+      /*  display: flex;
+        flex-direction: column;*/
+    }
+    #menu li a{
+        padding: 5px;
+        margin: 0px;
+    }
+}
+
